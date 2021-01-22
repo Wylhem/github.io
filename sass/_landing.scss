@@ -1,0 +1,51 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+
+    .header {
+        padding: pxrem(20px);
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+
+        .menu {
+            i {
+                color: white;
+            }
+        }
+    }
+
+    #navigation {
+        display: none;
+
+        &.active {
+            display: block;
+        }
+    }
+
+    .landing {
+        width: 100%;
+        height: 100vh;
+        background-color: $black;
+        position: relative;
+
+
+
+
+        #title-wrapper {
+            position: absolute;
+            top: 40%;
+            width: 100%;
+
+            text-align: center;
+
+            h1 {
+                color: $light-pink;
+                opacity: 100%;
+
+            }
+        }
+
+
+    }
+}
